@@ -1,7 +1,7 @@
 
 """ 
 Python program to search for mac address in the local network.
-denis.jakovina@privatbank.ua
+denis.jakovina@gmail.com
 """
 
 
