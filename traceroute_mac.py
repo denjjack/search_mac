@@ -20,7 +20,7 @@ def input_user_data():
             ipaddress.ip_network(devices_ip)
             break
         except ValueError:
-            print("Input not correct IP Address")
+            print("Input is not correct IP Address")
 
 
     user = input('Username: ')
@@ -33,7 +33,7 @@ def input_user_data():
         mac_address = re.compile(r"(([\da-fA-F]{4}[.]){2}[\da-fA-F]{4})")
         mac = re.findall(mac_address, request_mac)
         if mac == []:
-            print("Input not correct MAC Address, input in form H.H.H")
+            print("Input is not correct MAC Address, input in form H.H.H")
             continue
         else:
             break
